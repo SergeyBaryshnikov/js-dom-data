@@ -1,0 +1,49 @@
+.wrapper {
+  margin: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 150%;
+}
+button {
+  margin-right: 10px;
+  margin-top: 10px;
+  min-width: 50px;
+  min-height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-color: blue;
+  background-color: white;
+  color: black;
+}
+h1+button{
+  background-color: rgb(128, 162, 255);
+  color: white;
+}
+.border-wrapper {
+  border: 2px solid blue;
+  margin-top: 20px;
+  width: 50%;
+  height: 250px;
+  padding: 5px;
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  border: 2px dotted rgb(0, 0, 0);
+  width: 99%;
+  height: 99%;
+}
+.content-wrapper div {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  font-size: 150%;
+  margin: 1px;
+  min-width: 50px;
+  min-height: 50px;
+  background-color: rgb(128, 162, 255);
+  color: rgb(90, 37, 214);
+}
